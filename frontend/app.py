@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-API_BASE = "http://127.0.0.1:8000"
+API_BASE = "https://productdoc-autosuite.onrender.com"
 GENERATE_URL = f"{API_BASE}/generate"
 HISTORY_URL = f"{API_BASE}/history"
 
