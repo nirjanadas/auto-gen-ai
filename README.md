@@ -102,21 +102,35 @@ productdoc_autosuite/
 ---
 
 ## 🧠 Tech Stack
-**Frontend**
-- Streamlit
-- Python
 
-**Backend**
-- FastAPI
-- SQLAlchemy
-- SQLite
+<div align="center">
 
-**AI**
-- OpenAI GPT models
+### 🖥️ **Frontend**
+| Technology | Purpose |
+|-----------|----------|
+| 🎨 Streamlit | UI & user interaction |
+| 🐍 Python | Core language |
 
-**Security**
-- bcrypt
-- Environment variables via .env
+### ⚙️ **Backend**
+| Technology | Purpose |
+|-----------|----------|
+| 🚀 FastAPI | API framework |
+| 🏗️ SQLAlchemy | ORM & database layer |
+| 🗄️ SQLite | Lightweight database |
+
+### 🤖 **AI**
+| Technology | Purpose |
+|-----------|----------|
+| 🔮 OpenAI GPT Models | Content generation |
+
+### 🔐 **Security**
+| Technology | Purpose |
+|-----------|----------|
+| 🔑 bcrypt | Password hashing |
+| 🧩 .env Config | Secure environment variables |
+
+</div>
+
 
 ---
 
