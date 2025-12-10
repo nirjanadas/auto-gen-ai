@@ -48,21 +48,22 @@ Built using OpenAI models, with clean modular architecture, user authentication,
 productdoc_autosuite/
 │
 ├── backend/
-│   ├── main.py            # FastAPI entry point
-│   ├── database.py        # SQLite + SQLAlchemy setup
-│   ├── models.py          # ORM models
-│   ├── prompts.py         # Prompt templates for generation
-│   ├── utils.py           # Helper utilities
-│   └── routers/           # API route handlers (optional if used)
+│   ├── main.py
+│   ├── database.py
+│   ├── models.py
+│   ├── prompts.py
+│   ├── utils.py
+│   └── routers/
 │
 ├── frontend/
-│   ├── app.py             # Streamlit frontend app
-│   └── requirements.txt   # Frontend dependencies
+│   ├── app.py
+│   └── requirements.txt
 │
-├── productdoc.db          # SQLite database
-├── .env.example           # Environment variable template
+├── productdoc.db
+├── .env.example
 ├── .gitignore
 └── README.md
+
 
 ---
 
