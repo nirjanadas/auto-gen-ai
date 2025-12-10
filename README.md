@@ -55,6 +55,20 @@ It includes a **FastAPI backend**, **Streamlit frontend**, **secure user login**
 | Other | python-dotenv, requests |
 
 ---
-
+productdoc_autosuite/
+│── backend/
+│ ├── main.py
+│ ├── database.py
+│ ├── models.py
+│ ├── prompts.py
+│ ├── utils.py
+│
+│── frontend/
+│ ├── app.py
+│
+│── productdoc.db
+│── requirements.txt
+│── .env.example
+│── README.md
 ## 📁 Project Structure
 
