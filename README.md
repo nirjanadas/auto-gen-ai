@@ -72,23 +72,23 @@ productdoc_autosuite/
 ## ⚙️ Installation & Setup
 
 ### 🔹 **1.Clone the repository**
-git clone https://github.com/your-username/productdoc-autosuite
-cd productdoc-autosuite
+''''git clone https://github.com/your-username/productdoc-autosuite'''
+'''cd productdoc-autosuite'''
 
 ### 🔹 **2.Install dependencies**
-pip install -r requirements.txt
+'''pip install -r requirements.txt'''
 
 ### 🔹 **3.Create a .env file**
-BACKEND_URL=http://localhost:8000
-OPENAI_API_KEY=your_key_here
+'''BACKEND_URL=http://localhost:8000'''
+'''OPENAI_API_KEY=your_key_here'''
 
 ### 🔹 **4.Run the backend**
-cd backend
-uvicorn main:app --reload --port 8000
+'''cd backend'''
+'''uvicorn main:app --reload --port 8000'''
 
 ### 🔹 **5.Run the frontend**
-cd frontend
-streamlit run app.py
+'''cd frontend'''
+'''streamlit run app.py'''
 
 ---
 
