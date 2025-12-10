@@ -23,7 +23,7 @@ Built using OpenAI models, with clean modular architecture, user authentication,
  ### 🔹 **2. FastAPI Backend**
 
  **Endpoints**
- - `/generate` – generate PRD, FAQ, scripts, marketing copy  
+ - `/generate` – generate PRD, FAQ, landing page content, marketing copy 
  - `/signup` – register users  
  - `/login` – authenticate users  
  - `/history` – recent 10 generations  
