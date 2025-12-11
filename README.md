@@ -1,14 +1,14 @@
 ## 🖼️ UI Preview
 
-![ProductDoc UI](assets/ui_preview.png)
+![AUTOGEN UI](assets/ui_preview.png)
 
 
 ---
 
-# ⚡ ProductDoc AutoSuite  
+# ⚡ AutoGen AI  
 AI-powered product documentation generator with a modular FastAPI backend and a Streamlit frontend.
 
-ProductDoc AutoSuite helps teams quickly generate:
+AutoGen AI converts a short product brief into high-quality outputs:
 - Product requirement documents (PRDs)
 - Landing page content
 - FAQs
@@ -56,7 +56,7 @@ Built using OpenAI models, with clean modular architecture, user authentication,
 ##  📁 Project Structure
 
  <pre>
-productdoc_autosuite/
+auto_gen_ai/
 │
 ├── assets
 |    ├── ui_preview.png
@@ -125,8 +125,8 @@ productdoc_autosuite/
 ## ⚙️ Installation & Setup
 
 ### 🔹 **1.Clone the repository**
-```git clone https://github.com/your-username/productdoc-autosuite```
-```cd productdoc-autosuite```
+```git clone https://github.com/nirjanadas/autogen-ai.git```
+```cd autogen-ai```
 
 ### 🔹 **2.Install dependencies**
 ```pip install -r requirements.txt```
