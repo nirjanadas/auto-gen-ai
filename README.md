@@ -125,41 +125,36 @@ auto_gen_ai/
 ## ⚙️ Installation & Setup
 
 ### 🔹 **1.Clone the repository**
-
 ```git clone https://github.com/nirjanadas/autogen-ai.git```
 ```cd autogen-ai```
 
 ### 🔹 **2.Install dependencies**
-
 ```pip install -r requirements.txt```
 
 ### 🔹 **3.Create a .env file**
-
 ```BACKEND_URL=http://localhost:8000```
 ```OPENAI_API_KEY=your_key_here```
 
 ### 🔹 **4.Run the backend**
-
 ```cd backend```
 ```uvicorn main:app --reload --port 8000```
 
 ### 🔹 **5.Run the frontend**
-
 ```cd frontend```
 ```streamlit run app.py```
 
 ---
 
 ## 🔐 Authentication Flow
-- User signs up with email + password
-- Passwords are securely hashed using bcrypt
-- Login returns a simple session token
-- User ID is attached to authenticated requests
-- User ID is attached to authenticated requests
+- Users sign up with email + password
+- Passwords hashed securely with bcrypt
+- Login returns a session token
+- User ID is attached to each authenticated request
+- User history is stored and fetched per user
 
 ---
 
-## 🧠 Tech Stack
+ ## 🧠 Tech Stack
 
 <div align="center">
 
@@ -189,13 +184,15 @@ auto_gen_ai/
 
 </div>
 
+ 
 
 ---
 
 ## 🤝 Contributions
 
-Contributions are welcome.
-For major changes, please open an issue to discuss your proposal.
+Contributions are welcome. For major changes, please open an issue first to discuss your proposal.
+
+
  
 
 
